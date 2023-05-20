@@ -354,9 +354,10 @@ Please download the **latest library files** and **Demo source code** in Release
   <img src="./docs/assets/pose_estimation.jpg">
   </p>
 
-| 名称 Name     | 描述 Description | 链接 Link                                                       |
-| ----------- | -------------- | ------------------------------------------------------------- |
-| person-pose | 通用人体关键点        | 链接: https://pan.baidu.com/s/1Hg1F9codS2qX3EaU0ah0tg 提取码: sfk2 |
+| 名称 Name           | 描述 Description | 链接 Link                                                                |
+| ----------------- | -------------- | ---------------------------------------------------------------------- |
+| person-pose       | 通用人体关键点        | 链接: https://pan.baidu.com/s/1Hg1F9codS2qX3EaU0ah0tg 提取码: sfk2          |
+| person-pose-light | 通用人体关键点轻量版     | 链接: https://pan.baidu.com/s/1IeRrMDJASSlnomX_zK5kVA?pwd=73jw 提取码: 73jw |
 
 ## User's documents
 

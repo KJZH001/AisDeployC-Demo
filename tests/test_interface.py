@@ -30,7 +30,7 @@ elif "Linux" in platform.platform():
 if "macOS" in platform.platform():
     license_path = "tests/assets/licenses/registed/macos_registed_info.aisl"
 elif "Windows" in platform.platform():
-    license_path = "tests/assets/licenses/registed/windows_registed_info.aisl"
+    license_path = "E:\\licenses\\windows_registed_info.aisl"
 elif "Linux" in platform.platform():
     license_path = "tests/assets/licenses/registed/linux_registed_info.aisl"
 
@@ -168,6 +168,7 @@ def test_interface_cls():
 
     path_str = "tests/assets/models/sft_recog_compose.aism"
 
+
     gpu_id = 0
     ret = deploy_obj.model_initialize(path_str, gpu_id)
     assert ret == 0
@@ -200,14 +201,8 @@ def test_interface_pose():
 
 
     deploy_obj = AisDeployC(lib_path)
+    path_str = "tests/assets/models/human_pose_est_17p_mov2.aism"
 
-    path_str = None
-    if "macOS" in platform.platform():
-        path_str = "/Users/zhoujinghui/CLionProjects/LargeFiles/human_pose_est_17p_r50.aism"
-    elif "Windows" in platform.platform():
-        path_str = "E:\\LargeFiles\\human_pose_est_17p_r50.aism"
-    elif "Linux" in platform.platform():
-        path_str = "/home/tzvtc/data/LargeFiles/human_pose_est_17p_r50.aism"
     gpu_id = 0
     ret = deploy_obj.model_initialize(path_str, gpu_id)
     assert ret == 0
